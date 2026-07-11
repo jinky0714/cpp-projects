@@ -88,7 +88,7 @@ int main() {
     do {
     cout << "E N T E R ~  Password :  ";
     cin >> passIn;
-    } while(userIn.empty());
+    } while(passIn.empty());
     
     if(systemGate.attemptLogin(userIn, passIn)) {
         cout << "============================================" << endl;
